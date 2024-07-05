@@ -1,0 +1,20 @@
+---
+title: "Anson demo"
+format: 
+  pdf:
+    code-fold: true
+---
+
+```{r, setup}
+library(tidyverse)
+source("plot-function.R")
+source("points_to_plot.R")
+```
+
+Now we try to plot the points using Thalia's function for the points and Anson's function for the plotting:
+
+```{r}
+a <- 1
+b <- 2
+plot_function(points_to_plot(a,b))
+```
