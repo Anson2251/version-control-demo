@@ -1,6 +1,6 @@
-library(tidyverse)
+library(tidyverse) # this is library
 
-plot_function <- function (points_to_plot) {
+plot_function <- function (points_to_plot) { # this is function
     x <- points_to_plot[["x"]]
     y <- points_to_plot[["y"]]
     plot <- ggplot() +
